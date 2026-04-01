@@ -12,7 +12,8 @@ p, span, a, li{
     font-family: 'Poppins', sans-serif;
 }
 
-.cabecalho{
+.cabecalho,
+.rodape{
     background-color: #064661;
     padding: 42px 20px 32px 20px;
     display: flex;
@@ -34,7 +35,7 @@ p, span, a, li{
 .container{
     display: flex;
     flex-direction: column;
-    gap: 80px;
+    gap: 90px;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -70,7 +71,7 @@ p, span, a, li{
     font-weight: 400;
     font-size: 40px;
     line-height: 100%;
-    letter-spacing: 0%;
+    letter-spacing: 0;
     text-transform: uppercase;
     color: #fff;
 }
@@ -79,7 +80,7 @@ p, span, a, li{
     font-weight: 400;
     font-size: 32px;
     line-height: 100%;
-    letter-spacing: 0%;
+    letter-spacing: 0;
     text-transform: uppercase;
     color: #064661;
 }
@@ -88,7 +89,7 @@ p, span, a, li{
     font-weight: 400;
     font-size: 18px;
     line-height: 30px;
-    letter-spacing: 0%;
+    letter-spacing: 0;
     color: #262626;
 }
 
@@ -140,11 +141,98 @@ p, span, a, li{
     border-radius: 10px;
     background-color: #99BEDF;
     border: 3px solid #064661;
-    padding: 22px;
+    padding: 40px 30px;
     color: #262626;
 }
 
 .topico.invertido{
     background-color: rgba(6, 70, 97, 0.7);
-    color: #fff;
+}
+
+.topico .titulo-terciario,
+.topico .texto-corpo{
+    color: #262626;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0;
+    text-transform: uppercase;
+}
+
+.topico.invertido .titulo-terciario,
+.topico.invertido .texto-corpo{
+    color: #fff !important;
+}
+    
+.section.imagens-section{
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+    width: 100%;
+}
+
+.imagem-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 48px;
+    width: 100%;
+    flex-wrap: nowrap;
+}
+
+.imagem-container .imagem-secundaria{
+    aspect-ratio: 1/1;
+    width: 100%;
+    object-fit: cover;
+    height: auto;
+    border-radius: 50px;
+}
+
+.section.contato{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 42px;
+    width: 100%;
+    max-width: 1018px;
+}
+
+.contato-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.lista-contato{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 100%;
+}
+
+.contato-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+    width: 100%;
+}
+
+.contato-item i{
+    font-size: 28px;
+    line-height: 1;
+    height: auto;
+    color: #262626;
+}
+
+.contato-item a,
+.contato-item p{
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 1;
+    letter-spacing: 0;
+    color: #262626;
+    text-decoration: none;
 }
