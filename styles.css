@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Limelight', cursive;
+}
+
+p, span, a, li{
+    font-family: 'Poppins', sans-serif;
+}
+
+.cabecalho{
+    background-color: #064661;
+    padding: 42px 20px 32px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.cabecalho-nav{
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 1138px;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 70px 20px;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.banner img{
+    width: 100%;
+    object-fit: cover;
+    height: auto;
+}
+
+.section{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 1138px;
+}
+
+.texto-primario{
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.titulo-primario{
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.titulo-secundario{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: #064661;
+}
+
+.texto-corpo{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    color: #262626;
+}
+
+.texto-imagem{
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+    width: 100%;
+}
+
+.texto-imagem-container{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    width: 100%;
+}
+
+.texto-imagem-container .texto-primario{
+    width: 50%;
+}
+
+.texto-imagem-container .imagem-secundaria{
+    width: 50%;
+    object-fit: cover;
+    height: auto;
+}
+
+.section.topicos{
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+    justify-content: center;
+    align-items: center;
+}
+
+.lista-topicos{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    gap: 38px;
+}
+
+.topico{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    border-radius: 10px;
+    background-color: #99BEDF;
+    border: 3px solid #064661;
+    padding: 22px;
+    color: #262626;
+}
+
+.topico.invertido{
+    background-color: rgba(6, 70, 97, 0.7);
+    color: #fff;
+}

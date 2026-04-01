@@ -1,0 +1,132 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('./fonts/Poppins-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Limelight';
+    src: url('./fonts/Limelight-Regular.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./fonts/Poppins-Black.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./fonts/Poppins-ExtraLight.woff2') format('woff2');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./fonts/Poppins-ExtraBold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./fonts/Poppins-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./fonts/Poppins-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./fonts/Poppins-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./fonts/Poppins-SemiBold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./fonts/Poppins-Thin.woff2') format('woff2');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+.limelight {
+    font-family: 'Limelight';
+}
+
+.poppins {
+    font-family: 'Poppins';
+}
+
+.poppins-bold {
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+
+.poppins-black {
+    font-family: 'Poppins';
+    font-weight: 900;
+}
+
+.poppins-extralight {
+    font-family: 'Poppins';
+    font-weight: 200;
+}
+
+.poppins-extrabold {
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+
+.poppins-light {
+    font-family: 'Poppins';
+    font-weight: 300;
+}
+
+.poppins-medium {
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+
+.poppins-regular {
+    font-family: 'Poppins';
+    font-weight: normal;
+}
+
+.poppins-semibold {
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+
+.poppins-thin {
+    font-family: 'Poppins';
+    font-weight: 100;
+}
