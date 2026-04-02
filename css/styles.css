@@ -5,7 +5,7 @@
 }
 
 h1, h2, h3, h4, h5, h6{
-    font-family: 'Limelight', cursive;
+    font-family: 'Limelight', 'Poppins', sans-serif;
 }
 
 p, span, a, li{
@@ -235,4 +235,41 @@ p, span, a, li{
     letter-spacing: 0;
     color: #262626;
     text-decoration: none;
+}
+
+.rodape-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    width: 100%;
+}
+
+.rodape-container p{
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 1;
+    letter-spacing: 0;
+    color: #fff;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .texto-imagem-container{
+        flex-direction: column;
+    }
+    .texto-imagem-container .texto-primario,
+    .texto-imagem-container .imagem-secundaria{
+        width: 100%;
+    }
+    .imagem-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .lista-topicos{
+        flex-direction: column;
+    }
+    .topico{
+        width: 100%;
+    }
 }
